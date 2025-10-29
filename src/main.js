@@ -129,7 +129,6 @@ async function displayCardsDynamically() {
       newcard.querySelector(".card-length").textContent = hike.length;
 
       newcard.querySelector(".card-image").src = `./images/${hike.code}.jpg`;
-      newcard.querySelector(".card-time").textContent = hike.hike_time;
 
       // Add the link with the document ID
       newcard.querySelector(
